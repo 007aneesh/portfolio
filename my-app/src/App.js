@@ -1,0 +1,84 @@
+import "./App.css";
+import Img from "./Components/imageComponent";
+import Navbar from "./Components/nav";
+import React from "react";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
+function App() {
+  return (
+    <div className="App">
+      <div className="left-div">
+        <Img />
+      </div>
+      <div className="right-div">
+        <h1
+        // style={{
+        //   color: "white",
+        //   fontSize: "48px",
+        //   lineHeight: "1",
+        //   "@media (max-width: 768px)": { fontSize: "36px" },
+        // }}
+        >
+          Aneesh Aggarwal
+        </h1>
+        <p>
+          I'm a passionate&nbsp;
+          <span class="highlight">front-end developer</span>
+        </p>
+        <Navbar />
+        <div className="icons">
+          <a href="https://www.instagram.com/aneesh_.aggarwal/">
+            <FaInstagram
+              className="ho"
+              size={22}
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "50%",
+                color: "white",
+              }}
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/aneeshaggarwal/">
+            <FaLinkedin
+              className="ho"
+              size={22}
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "50%",
+                color: "white",
+              }}
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/aneeshaggarwal/">
+            <AiOutlineMail
+              className="ho"
+              size={22}
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "50%",
+                color: "white",
+              }}
+            />
+          </a>
+          <a href="https://github.com/007aneesh">
+            <AiFillGithub
+              className="ho"
+              size={22}
+              style={{
+                border: "1px solid black",
+                padding: "10px",
+                borderRadius: "50%",
+                color: "white",
+              }}
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
