@@ -79,7 +79,7 @@ a:hover {
     justify-content: space-evenly;
     z-index: 5;
     transition: 0.3s;
-    background: #040404 url(../images/p3.png) top right no-repeat;
+    background: #040404 url(../images/p3.png) top right;
   }
 }
 @media (min-height: 1000px) {

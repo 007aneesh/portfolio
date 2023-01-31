@@ -6,7 +6,7 @@
   justify-content: space-evenly; /* aligns items horizontally */
   height: 100vh; /* to take the full height of the viewport */
 }
-.left-div {
+/* .left-div {
   position: fixed;
   image-rendering: pixelated;
   top: 10vh;
@@ -15,10 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .right-div {
   position: fixed;
-  right: 20vw;
+  right: 30vw;
 }
 .right-div h1 {
   color: white;
@@ -49,10 +49,29 @@
   background-color: #33cc33;
   transition: 0.5s;
 }
-@media (max-width: 426px) {
-  .left-div {
-    top: 12vh;
+footer {
+  /* display: flex; */
+  position: fixed;
+  /* margin-bottom: -90vh;
+  margin-left: 60vw; */
+  z-index: -1;
+  bottom: 0;
+  margin: 0px 10px 10px 0px;
+}
+@media (min-width: 993px) {
+  footer {
+    right: 0;
   }
+}
+@media (max-width: 992px) {
+  footer {
+    align-items: center;
+  }
+}
+@media (max-width: 426px) {
+  /* .left-div {
+    top: 12vh;
+  } */
   .right-div {
     left: 0;
     right: 0;
@@ -101,13 +120,13 @@
   }
 }
 @media (min-width: 998px) and (max-width: 1024px) {
-  .left-div {
+  /* .left-div {
     left: 0;
     right: 0;
     top: 26%;
     justify-content: flex-start;
     align-items: center;
-  }
+  } */
   .right-div {
     right: 10vw;
   }
@@ -121,13 +140,13 @@
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .left-div {
+  /* .left-div {
     left: 9vw;
     right: 0;
     top: 26%;
     justify-content: flex-start;
     align-items: center;
-  }
+  } */
   .right-div {
     right: 12vw;
     top: 30vh;
@@ -137,13 +156,13 @@
   }
 }
 @media (min-width: 1440px) and (max-width: 2560px) {
-  .left-div {
+  /* .left-div {
     left: 9vw;
     right: 0;
     top: 25%;
     justify-content: flex-start;
     align-items: center;
-  }
+  } */
   .right-div {
     right: 10vw;
     top: 30vh;

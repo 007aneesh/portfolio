@@ -14,7 +14,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url(./images/p3.png) top right no-repeat;
+  background: #040404 url(./images/aneesh2.png) top left no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -22,12 +22,27 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+@media (min-width: 1024px) {
+  body::before {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 425px) {
+  body::before {
+    background-position: -200px;
+  }
+}
+@media (min-width: 426px) and (max-width: 900px) {
+  body::before {
+    background-position: -150px;
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   body::before {
     background: #040404 url(./images/p6.webp) top right;
   }
-}
+} */

@@ -1,5 +1,5 @@
 import "./App.css";
-import Img from "./Components/imageComponent";
+// import Img from "./Components/imageComponent";
 import Navbar from "./Components/nav";
 import React from "react";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -7,20 +7,11 @@ import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
 function App() {
   return (
     <div className="App">
-      <div className="left-div">
+      {/* <div className="left-div">
         <Img />
-      </div>
+      </div> */}
       <div className="right-div">
-        <h1
-        // style={{
-        //   color: "white",
-        //   fontSize: "48px",
-        //   lineHeight: "1",
-        //   "@media (max-width: 768px)": { fontSize: "36px" },
-        // }}
-        >
-          Aneesh Aggarwal
-        </h1>
+        <h1>Aneesh Aggarwal</h1>
         <p>
           I'm a passionate&nbsp;
           <span class="highlight">front-end developer</span>
@@ -77,6 +68,9 @@ function App() {
           </a>
         </div>
       </div>
+      <footer>
+        Designed by <span style={{ color: "#33cc33" }}>Aneesh Aggarwal</span>
+      </footer>
     </div>
   );
 }
