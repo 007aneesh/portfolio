@@ -1,76 +1,23 @@
 import "./App.css";
-// import Img from "./Components/imageComponent";
-import Navbar from "./Components/nav";
 import React from "react";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Portfolio from "./Components/Portfolio";
+import Resume from "./Components/Resume";
+import Contact from "./Components/Contact";
 function App() {
   return (
     <div className="App">
-      {/* <div className="left-div">
-        <Img />
-      </div> */}
-      <div className="right-div">
-        <h1>Aneesh Aggarwal</h1>
-        <p>
-          I'm a passionate&nbsp;
-          <span class="highlight">front-end developer</span>
-        </p>
-        <Navbar />
-        <div className="icons">
-          <a href="https://www.instagram.com/aneesh_.aggarwal/">
-            <FaInstagram
-              className="ho"
-              size={22}
-              style={{
-                border: "1px solid black",
-                padding: "10px",
-                borderRadius: "50%",
-                color: "white",
-              }}
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/aneeshaggarwal/">
-            <FaLinkedin
-              className="ho"
-              size={22}
-              style={{
-                border: "1px solid black",
-                padding: "10px",
-                borderRadius: "50%",
-                color: "white",
-              }}
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/aneeshaggarwal/">
-            <AiOutlineMail
-              className="ho"
-              size={22}
-              style={{
-                border: "1px solid black",
-                padding: "10px",
-                borderRadius: "50%",
-                color: "white",
-              }}
-            />
-          </a>
-          <a href="https://github.com/007aneesh">
-            <AiFillGithub
-              className="ho"
-              size={22}
-              style={{
-                border: "1px solid black",
-                padding: "10px",
-                borderRadius: "50%",
-                color: "white",
-              }}
-            />
-          </a>
-        </div>
-      </div>
-      <footer>
-        Designed by <span style={{ color: "#33cc33" }}>Aneesh Aggarwal</span>
-      </footer>
+      <Router>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

@@ -22,8 +22,9 @@
 }
 .right-div h1 {
   color: white;
-  font-size: 48px;
-  line-height: 1;
+  font-size: 54px;
+  margin-bottom: 8px;
+  /* line-height: 1; */
 }
 .right-div p {
   font-size: 1.5rem;
@@ -164,7 +165,7 @@ footer {
     align-items: center;
   } */
   .right-div {
-    right: 10vw;
+    right: 20vw;
     top: 30vh;
   }
 }
