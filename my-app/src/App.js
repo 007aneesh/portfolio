@@ -7,6 +7,7 @@ import Portfolio from "./Components/Portfolio";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 function App() {
+  console.log(window.location);
   return (
     <div className="App">
       <Router>

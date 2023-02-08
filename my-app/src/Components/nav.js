@@ -1,26 +1,42 @@
 import React, { useState } from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import "./nav.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { NavLink } from "react-router-dom";
-function Nav() {
-  const [showMenu, setShowMenu] = useState(false);
-  useEffect(() => {
-    // Add the active class to the 1st <a> tag when the page loads
-    document.querySelectorAll(".alink")[0].classList.add("active");
-  }, []);
+import { NavLink, useMatch, useResolvedPath } from "react-router-dom";
 
-  function handleClick(e) {
-    const allLinks = document.querySelectorAll(".alink");
-    allLinks.forEach((link) => link.classList.remove("active"));
-    e.target.classList.add("active");
-    console.log(e);
-  }
+function Nav({ page }) {
+  const [showMenu, setShowMenu] = useState(false);
+  // useEffect(() => {
+  //   // Add the active class to the 1st <a> tag when the page loads
+  //   document.querySelectorAll(".alink")[0].classList.add("active");
+  // }, []);
+
+  // function handleClick(e) {
+  //   const allLinks = document.querySelectorAll(".alink");
+  //   allLinks.forEach((link) => link.classList.remove("active"));
+  //   e.target.classList.add("active");
+  //   console.log(e);
+  // }
   return (
     <>
       <div className={showMenu ? "menu mobile-menu" : "menu"}>
         <ul>
-          <li>
+          <CustomLink to="/" className="alink">
+            Home
+          </CustomLink>
+          <CustomLink to="/About" className="alink">
+            About
+          </CustomLink>
+          <CustomLink to="/Resume" className="alink">
+            Resume
+          </CustomLink>
+          <CustomLink to="/Portfolio" className="alink">
+            Portfolio
+          </CustomLink>
+          <CustomLink to="/Contact" className="alink">
+            Contact
+          </CustomLink>
+          {/* <li>
             <NavLink to="/" className="alink" onClick={handleClick}>
               Home
             </NavLink>
@@ -44,16 +60,26 @@ function Nav() {
             <NavLink to="/Contact" className="alink" onClick={handleClick}>
               Contact
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="hamburger-menu">
-        <a href="#" onClick={() => setShowMenu(!showMenu)}>
+        <NavLink to="#" onClick={() => setShowMenu(!showMenu)}>
           <GiHamburgerMenu style={{ color: "white" }} size={24} />
-        </a>
+        </NavLink>
       </div>
     </>
   );
 }
-
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  return (
+    <li className={isActive ? "active" : ""}>
+      <NavLink to={to} {...props}>
+        {children}
+      </NavLink>
+    </li>
+  );
+}
 export default Nav;
