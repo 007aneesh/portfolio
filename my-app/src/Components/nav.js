@@ -3,7 +3,17 @@ import React, { useState } from "react";
 import "./nav.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink, useMatch, useResolvedPath } from "react-router-dom";
-
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to);
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+  return (
+    <li className={isActive ? "active" : ""}>
+      <NavLink to={to} {...props}>
+        {children}
+      </NavLink>
+    </li>
+  );
+}
 function Nav({ page }) {
   const [showMenu, setShowMenu] = useState(false);
   // useEffect(() => {
@@ -71,15 +81,5 @@ function Nav({ page }) {
     </>
   );
 }
-function CustomLink({ to, children, ...props }) {
-  const resolvedPath = useResolvedPath(to);
-  const isActive = useMatch({ path: resolvedPath.pathname, end: true });
-  return (
-    <li className={isActive ? "active" : ""}>
-      <NavLink to={to} {...props}>
-        {children}
-      </NavLink>
-    </li>
-  );
-}
+
 export default Nav;
