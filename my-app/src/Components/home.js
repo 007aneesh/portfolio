@@ -1,15 +1,14 @@
 import React from "react";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
-import Navbar from "./nav";
-const Home = () => {
+const Home = ({ navbar: Navbar }) => {
   return (
     <>
       <div className="right-div">
         <h1>Aneesh Aggarwal</h1>
         <p>
           I'm a passionate&nbsp;
-          <span class="highlight">front-end developer</span>
+          <span className="highlight">front-end developer</span>
         </p>
 
         <Navbar />

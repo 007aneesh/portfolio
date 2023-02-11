@@ -1,0 +1,124 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mh-skills {
+  margin-bottom: 20px;
+}
+@media (min-width: 300px) and (max-width: 1033px) {
+  .row {
+    flex-direction: column;
+  }
+  .mh-skills-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mh-skills .mh-professional-skill {
+    width: 80vw;
+  }
+}
+.mh-skills .mh-professional-skill {
+  color: white;
+}
+h3 {
+  color: white;
+}
+.mh-skills .mh-professional-skill h3 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.mh-professional-skill {
+  width: 27vw;
+}
+
+.mh-professional-skills h3 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.mh-professional-progress li {
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 48%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.mh-progress {
+  margin-bottom: 20px;
+  font: 900 1.14285/1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.pr-skill-name {
+  margin-top: 15px;
+}
+.candidatos {
+  margin-bottom: 10px;
+}
+.each-skills {
+  width: 100%;
+}
+.candidatos .parcial {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+.candidatos .parcial .info {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.candidatos .parcial .info .name {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.9;
+  font-family: "Poppins", sans-serif;
+}
+.candidatos .parcial .info .percentage-num {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+}
+.candidatos .parcial .progressbar {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 30px 0 2px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.candidatos .parcial .percentagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 7px;
+  background: #18d26e;
+  -webkit-transition: 3s all;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: animationProgress;
+}
+
+@keyframes animationProgress {
+  from {
+    width: 0;
+  }
+}

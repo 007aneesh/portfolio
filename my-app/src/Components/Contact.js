@@ -1,10 +1,12 @@
 import React from "react";
-import Navbar from "./nav";
-export default function Contact() {
+export default function Contact({ navbar: Navbar }) {
   return (
     <>
       <Navbar />
       <h1>Contact</h1>
+      <footer>
+        Designed by <span style={{ color: "#33cc33" }}>Aneesh Aggarwal</span>
+      </footer>
     </>
   );
 }

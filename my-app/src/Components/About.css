@@ -1,0 +1,10 @@
+@media (max-width: 1032px) {
+  .block1 {
+    display: none;
+  }
+}
+@media (min-width: 1033px) {
+  .c2 {
+    margin-top: 20px;
+  }
+}
