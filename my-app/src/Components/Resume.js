@@ -168,11 +168,11 @@ export default function Resume({ navbar: Navbar }) {
                     <p>
                       <em>Chitkara University, Punjab, India</em>
                     </p>
-                    <p className="para1">
+                    {/* <p className="para1">
                       Qui deserunt veniam. Et sed aliquam labore tempore sed
                       quisquam iusto autem sit. Ea vero voluptatum qui ut
                       dignissimos deleniti nerada porti sand markend
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div class="col-lg-6">
