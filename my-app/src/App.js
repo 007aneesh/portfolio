@@ -5,7 +5,7 @@ import Navbar1 from "./Components/nav";
 import Navbar2 from "./Components/nav2";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Portfolio from "./Components/Portfolio";
+import Projects from "./Components/Projects";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" exact element={<Home navbar={Navbar1} />} />
           <Route path="/About" element={<About navbar={Navbar2} />} />
           <Route path="/Resume" element={<Resume navbar={Navbar2} />} />
-          <Route path="/Portfolio" element={<Portfolio navbar={Navbar2} />} />
+          <Route path="/Projects" element={<Projects navbar={Navbar2} />} />
           <Route path="/Contact" element={<Contact navbar={Navbar2} />} />
         </Routes>
       </Router>

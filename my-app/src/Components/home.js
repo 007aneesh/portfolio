@@ -64,7 +64,7 @@ const Home = ({ navbar: Navbar }) => {
           </a>
         </div>
       </div>
-      <footer>
+      <footer style={{ paddingRight: "10px" }}>
         Designed by <span style={{ color: "#33cc33" }}>Aneesh Aggarwal</span>
       </footer>
     </>

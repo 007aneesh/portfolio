@@ -29,29 +29,30 @@ function Navbar2({ page }) {
   return (
     <>
       <div className="navv">
-        <div className="heading1">
-          <CustomLink to="/" style={{ color: "#fff" }}>
-            Aneesh Aggarwal
-          </CustomLink>
-        </div>
-        <div className={showMenu ? "menu2 mobile-menu" : "menu2"}>
-          <ul>
-            <CustomLink to="/" className="alink">
-              Home
+        <div className="nav-content">
+          <div className="heading1">
+            <CustomLink to="/" style={{ color: "#FFFFFF", fontWeight: "bold" }}>
+              Aneesh Aggarwal
             </CustomLink>
-            <CustomLink to="/About" className="alink">
-              About
-            </CustomLink>
-            <CustomLink to="/Resume" className="alink">
-              Resume
-            </CustomLink>
-            <CustomLink to="/Portfolio" className="alink">
-              Portfolio
-            </CustomLink>
-            <CustomLink to="/Contact" className="alink">
-              Contact
-            </CustomLink>
-            {/* <li>
+          </div>
+          <div className={showMenu ? "menu2 mobile-menu" : "menu2"}>
+            <ul>
+              <CustomLink to="/" className="alink">
+                Home
+              </CustomLink>
+              <CustomLink to="/About" className="alink">
+                About
+              </CustomLink>
+              <CustomLink to="/Resume" className="alink">
+                Resume
+              </CustomLink>
+              <CustomLink to="/Projects" className="alink">
+                Projects
+              </CustomLink>
+              <CustomLink to="/Contact" className="alink">
+                Contact
+              </CustomLink>
+              {/* <li>
             <NavLink to="/" className="alink" onClick={handleClick}>
               Home
             </NavLink>
@@ -76,12 +77,13 @@ function Navbar2({ page }) {
               Contact
             </NavLink>
           </li> */}
-          </ul>
-        </div>
-        <div className="hamburger-menu">
-          <NavLink to="#" onClick={() => setShowMenu(!showMenu)}>
-            <GiHamburgerMenu style={{ color: "white" }} size={24} />
-          </NavLink>
+            </ul>
+          </div>
+          <div className="hamburger-menu">
+            <NavLink to="#" onClick={() => setShowMenu(!showMenu)}>
+              <GiHamburgerMenu style={{ color: "white" }} size={24} />
+            </NavLink>
+          </div>
         </div>
       </div>
     </>

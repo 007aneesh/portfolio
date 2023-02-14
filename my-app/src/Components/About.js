@@ -16,6 +16,7 @@ const About = ({ navbar: Navbar }) => {
           opacity: "0.94",
         }}
       >
+        <Navbar />
         <div
           className="content"
           style={{
@@ -24,9 +25,9 @@ const About = ({ navbar: Navbar }) => {
             height: "100%",
             width: "100%",
             position: "relative",
+            zIndex: "0",
           }}
         >
-          <Navbar />
           {/* contain heading  */}
           <div
             className="data1"
@@ -124,6 +125,9 @@ const About = ({ navbar: Navbar }) => {
                   margin: "0px 0px 0px 0px",
                   fontWeight: "700",
                   fontSize: "26px",
+                  fontFamily: "Share Tech Mono",
+                  // eslint-disable-next-line
+                  fontFamily: "monospace",
                 }}
               >
                 Front-end Developer
@@ -131,8 +135,12 @@ const About = ({ navbar: Navbar }) => {
               <p
                 style={{ fontStyle: "italic!important", marginBottom: "15px" }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Hello, it's me Aneesh. I have 2 year of experience working on
+                front-end development and ability to collaborate effectively
+                with the senior developers. I have hands-on experience working
+                with React JS and maintaing the better code base for reusabilty
+                and I enjoy working closely with team members with the passion
+                of personal growth.
               </p>
               <div
                 style={{
@@ -300,16 +308,14 @@ const About = ({ navbar: Navbar }) => {
                   }}
                   className="p1"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I spend my spare time building upon my development skills and
+                  creating my own personal projects.
                 </p>
               </div>
             </div>
           </div>
           {/* skills */}
-          <div className="skills">
+          <div className="skills" style={{ width: "100vw" }}>
             <div style={{ padding: "5vh 0px 0px 8vw" }}>
               <h2
                 className="heading3"
@@ -346,24 +352,30 @@ const About = ({ navbar: Navbar }) => {
         {/* footer */}
         <footer
           style={{
-            background: "#040404",
-            width: "100vw",
-            zIndex: "1",
             display: "flex",
-            justifyContent: "center",
-            alignContent: "center",
-            marginBottom: "-10px",
-            padding: "0px 0px 20px 0px",
+            padding: "10px 20px 0px -1px",
+            zIndex: "1",
+            width: "100vw",
+            bottom: "0",
+            marginBottom: "0px",
+            right: "0",
+            overflowX: "hidden",
           }}
         >
-          Designed by&nbsp;{" "}
-          <span
+          <div
             style={{
-              color: "#33cc33",
+              width: "100%",
+              background: "#040404",
+              display: "flex",
+              justifyContent: "center",
+              height: "40px",
+              alignItems: "center",
+              marginRight: "18px",
             }}
           >
-            Aneesh Aggarwal
-          </span>
+            Designed by&nbsp;{" "}
+            <span style={{ color: "#33cc33" }}>Aneesh Aggarwal</span>
+          </div>
         </footer>
       </div>
     </>

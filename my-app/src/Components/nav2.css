@@ -11,16 +11,23 @@ a {
   position: relative;
 }
 .navv {
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: fixed;
-  background: #040404;
   z-index: 1;
+}
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-right: 18px;
+  background: #040404;
 }
 .heading1 {
   font-family: Armata, Esphimere, sans-serif;

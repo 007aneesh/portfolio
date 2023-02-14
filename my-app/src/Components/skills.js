@@ -103,7 +103,7 @@ const Skills = () => {
             </div>
           </div>
           {/* professional skills */}
-          <div className="col-sm-12 col-md-6">
+          <div className="col-sm-12 col-md-6" style={{ paddingLeft: "10px" }}>
             <div className="mh-professional-skills">
               <h3>Professional skills</h3>
               <ul className="mh-professional-progress">

@@ -40,8 +40,8 @@ function Nav({ page }) {
           <CustomLink to="/Resume" className="alink">
             Resume
           </CustomLink>
-          <CustomLink to="/Portfolio" className="alink">
-            Portfolio
+          <CustomLink to="/Projects" className="alink">
+            Projects
           </CustomLink>
           <CustomLink to="/Contact" className="alink">
             Contact
