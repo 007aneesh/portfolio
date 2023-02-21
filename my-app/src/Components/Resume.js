@@ -179,7 +179,7 @@ export default function Resume({ navbar: Navbar }) {
                   <h3 class="resume-title">Professional Experience</h3>
                   <div class="resume-item">
                     <h4>Working on it</h4>
-                    <h5>2023 - Present</h5>
+                    <h5>Present</h5>
                     {/* <p>
                       <em>Experion, New York, NY </em>
                     </p> */}
