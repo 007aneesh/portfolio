@@ -141,7 +141,7 @@ export default function Resume({ navbar: Navbar }) {
             <div className="resume">
               <div class="row">
                 <div class="col-lg-6" style={{ paddingRight: "10px" }}>
-                  <h3 class="resume-title">Sumary</h3>
+                  <h3 class="resume-title">Summary</h3>
                   <div class="resume-item pb-0">
                     <h4>Aneesh</h4>
                     <p>
@@ -176,17 +176,17 @@ export default function Resume({ navbar: Navbar }) {
                   </div>
                 </div>
                 <div class="col-lg-6">
-                  <h3 class="resume-title">Professional Experience</h3>
+                  {/* <h3 class="resume-title">Professional Experience</h3>
                   <div class="resume-item">
                     <h4>Working on it</h4>
-                    <h5>2023 - Present</h5>
-                    {/* <p>
+                    <h5>2023</h5>
+                    <p>
                       <em>Experion, New York, NY </em>
-                    </p> */}
+                    </p>
                     <p>
                       <ul>
                         <li>Currently looking for Interships/Training</li>
-                        {/* <li>
+                        <li>
                           Delegate tasks to the 7 members of the design team and
                           provide counsel on all aspects of the project.{" "}
                         </li>
@@ -197,11 +197,11 @@ export default function Resume({ navbar: Navbar }) {
                         <li>
                           Oversee the efficient use of production project
                           budgets ranging from $2,000 - $25,000
-                        </li> */}
+                        </li>
                       </ul>
                     </p>
                   </div>
-                  {/* <div class="resume-item">
+                  <div class="resume-item">
                     <h4>Graphic design specialist</h4>
                     <h5>2017 - 2018</h5>
                     <p>

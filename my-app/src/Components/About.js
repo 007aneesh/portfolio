@@ -241,7 +241,7 @@ const About = ({ navbar: Navbar }) => {
                       >
                         Degree:
                       </strong>
-                      <span>Ongoing on</span>
+                      <span>B.E. CSE</span>
                     </li>
                     <li
                       style={{

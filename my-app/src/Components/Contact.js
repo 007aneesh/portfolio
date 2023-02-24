@@ -244,7 +244,7 @@ export default function Contact({ navbar: Navbar }) {
                       <p>aneeshx000@gmail.com</p>
                     </div>
                   </div>
-                  <div className="blocks">
+                  {/* <div className="blocks">
                     <div className="c4">
                       <IconContext.Provider
                         value={{
@@ -275,7 +275,7 @@ export default function Contact({ navbar: Navbar }) {
                     <div className="c5">
                       <p>XXXXXXXXXXXXXX</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

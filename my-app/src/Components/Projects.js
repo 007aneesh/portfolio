@@ -88,11 +88,8 @@ export default function Projects({ navbar: Navbar }) {
                   </div>
                   <div class="card_content">
                     <p class="content_text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      A maxime veritatis dicta accusamus, laudantium excepturi
-                      possimus praesentium minus blanditiis quos iste aperiam
-                      obcaecati repellat modi et veniam. Voluptates, delectus
-                      quis?
+                      A web drum machine that imitates drum kit sounds through
+                      the optional uses of the keyboard and button clicks.
                     </p>
                     <a href="https://drum-kit-two-psi.vercel.app/" class="btn">
                       Click Me
@@ -101,34 +98,29 @@ export default function Projects({ navbar: Navbar }) {
                 </div>
                 <div class="card">
                   <div class="card_header">
-                    <p class="small_text">TINYTEXT</p>
-                    <h2 class="title_text">This is the title</h2>
+                    <p class="small_text">React JS</p>
+                    <h2 class="title_text">News Website</h2>
                   </div>
                   <div class="card_content">
                     <p class="content_text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      A maxime veritatis dicta accusamus, laudantium excepturi
-                      possimus praesentium minus blanditiis quos iste aperiam
-                      obcaecati repellat modi et veniam. Voluptates, delectus
-                      quis?
+                      A react js website that provides the latest news feed via
+                      the news api.
                     </p>
-                    <a href="https://drum-kit-two-psi.vercel.app/" class="btn">
+                    <a href="https://github.com/007aneesh/newsAPI" class="btn">
                       Click Me
                     </a>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card_header">
-                    <p class="small_text">TINYTEXT</p>
-                    <h2 class="title_text">This is the title</h2>
+                    <p class="small_text">React JS</p>
+                    <h2 class="title_text">Weather App</h2>
                   </div>
                   <div class="card_content">
                     <p class="content_text">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      A maxime veritatis dicta accusamus, laudantium excepturi
-                      possimus praesentium minus blanditiis quos iste aperiam
-                      obcaecati repellat modi et veniam. Voluptates, delectus
-                      quis?
+                      A React JS app to get the current weather of any location
+                      by default it's current location using the OpenWeatherMap
+                      API.
                     </p>
                     <a href="https://drum-kit-two-psi.vercel.app/" class="btn">
                       Click Me
