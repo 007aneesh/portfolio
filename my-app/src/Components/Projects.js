@@ -92,7 +92,7 @@ export default function Projects({ navbar: Navbar }) {
                       the optional uses of the keyboard and button clicks.
                     </p>
                     <a href="https://drum-kit-two-psi.vercel.app/" class="btn">
-                      Click Me
+                      View
                     </a>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ export default function Projects({ navbar: Navbar }) {
                       the news api.
                     </p>
                     <a href="https://github.com/007aneesh/newsAPI" class="btn">
-                      Click Me
+                      View
                     </a>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ export default function Projects({ navbar: Navbar }) {
                       API.
                     </p>
                     <a href="https://drum-kit-two-psi.vercel.app/" class="btn">
-                      Click Me
+                      View
                     </a>
                   </div>
                 </div>
