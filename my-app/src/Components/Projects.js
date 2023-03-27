@@ -113,16 +113,19 @@ export default function Projects({ navbar: Navbar }) {
                 </div>
                 <div class="card">
                   <div class="card_header">
-                    <p class="small_text">React JS</p>
+                    <p class="small_text">Javascript</p>
                     <h2 class="title_text">Weather App</h2>
                   </div>
                   <div class="card_content">
                     <p class="content_text">
-                      A React JS app to get the current weather of any location
-                      by default it's current location using the OpenWeatherMap
+                      A JS app to get the current weather of any location by
+                      default it's current location using the OpenWeatherMap
                       API.
                     </p>
-                    <a href="https://drum-kit-two-psi.vercel.app/" class="btn">
+                    <a
+                      href="https://github.com/007aneesh/Weather-Api"
+                      class="btn"
+                    >
                       View
                     </a>
                   </div>
