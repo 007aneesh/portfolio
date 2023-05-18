@@ -80,22 +80,7 @@ export default function Projects({ navbar: Navbar }) {
               </h1>
             </div>
             <section className="portfolio">
-              <div class="cards_container">
-                <div class="card">
-                  <div class="card_header">
-                    <p class="small_text">Javascript</p>
-                    <h2 class="title_text">Drum Kit</h2>
-                  </div>
-                  <div class="card_content">
-                    <p class="content_text">
-                      A web drum machine that imitates drum kit sounds through
-                      the optional uses of the keyboard and button clicks.
-                    </p>
-                    <a href="https://drum-kit-two-psi.vercel.app/" class="btn">
-                      View
-                    </a>
-                  </div>
-                </div>
+              <div class="cards_container ">
                 <div class="card">
                   <div class="card_header">
                     <p class="small_text">React JS</p>
@@ -123,7 +108,57 @@ export default function Projects({ navbar: Navbar }) {
                       API.
                     </p>
                     <a
-                      href="https://github.com/007aneesh/Weather-Api"
+                      href="https://github.com/007aneesh/React-weather-app"
+                      class="btn"
+                    >
+                      View
+                    </a>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card_header">
+                    <p class="small_text">Javascript</p>
+                    <h2 class="title_text">Drum Kit</h2>
+                  </div>
+                  <div class="card_content">
+                    <p class="content_text">
+                      A web drum machine that imitates drum kit sounds through
+                      the optional uses of the keyboard and button clicks.
+                    </p>
+                    <a href="https://drum-kit-two-psi.vercel.app/" class="btn">
+                      View
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="cards_container ">
+                <div class="card ls">
+                  <div class="card_header">
+                    <p class="small_text">React JS</p>
+                    <h2 class="title_text">LongShot</h2>
+                  </div>
+                  <div class="card_content">
+                    <p class="content_text">
+                      A react js website that fetches the data from the JSON
+                      format and displays into tabular form with drag and drop
+                      functionality.
+                    </p>
+                    <a href="https://github.com/007aneesh/longShot" class="btn">
+                      View
+                    </a>
+                  </div>
+                </div>
+                <div class="card nc">
+                  <div class="card_header">
+                    <p class="small_text">HTML, CSS, JS</p>
+                    <h2 class="title_text">Netflix Clone</h2>
+                  </div>
+                  <div class="card_content">
+                    <p class="content_text">
+                      Netflix clone designed via HTML, CSS and JS.
+                    </p>
+                    <a
+                      href="https://github.com/007aneesh/Netflix-clone-By-Aneesh"
                       class="btn"
                     >
                       View

@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { SlLocationPin } from "react-icons/sl";
 import { CiMail } from "react-icons/ci";
 import { BsFillShareFill } from "react-icons/bs";
-import { BiPhoneCall } from "react-icons/bi";
+// import { BiPhoneCall } from "react-icons/bi";
 import "./contact.css";
 import { IconContext } from "react-icons";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";

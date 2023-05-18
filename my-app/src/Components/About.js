@@ -137,7 +137,7 @@ const About = ({ navbar: Navbar }) => {
               >
                 Hello, it's me Aneesh. I have 2 year of experience working on
                 front-end development and ability to collaborate effectively
-                with the senior developers. I have hands-on experience working
+                with the senior developers and also know about UX. I have hands-on experience working
                 with React JS and maintaing the better code base for reusabilty
                 and I enjoy working closely with team members with the passion
                 of personal growth.
