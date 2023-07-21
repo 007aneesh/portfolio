@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { SlLocationPin } from "react-icons/sl";
 import { CiMail } from "react-icons/ci";
 import { BsFillShareFill } from "react-icons/bs";
-// import { BiPhoneCall } from "react-icons/bi";
+import { BiPhoneCall } from "react-icons/bi";
 import "./contact.css";
 import { IconContext } from "react-icons";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -244,7 +244,7 @@ export default function Contact({ navbar: Navbar }) {
                       <p>aneeshx000@gmail.com</p>
                     </div>
                   </div>
-                  {/* <div className="blocks">
+                  <div className="blocks">
                     <div className="c4">
                       <IconContext.Provider
                         value={{
@@ -273,9 +273,9 @@ export default function Contact({ navbar: Navbar }) {
                     </div>
 
                     <div className="c5">
-                      <p>XXXXXXXXXXXXXX</p>
+                      <p>+91&nbsp;8295371847</p>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

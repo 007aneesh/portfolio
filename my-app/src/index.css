@@ -11,6 +11,10 @@ body {
   background: transparent;
 }
 
+html::-webkit-scrollbar{
+  display: none;
+}
+
 body::before {
   content: "";
   position: fixed;

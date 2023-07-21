@@ -179,13 +179,25 @@ export default function Resume({ navbar: Navbar }) {
                     <p>
                       <em>DAV Public School, Radaur</em>
                     </p>
-                    <p className="para1">
-                      Completed my Schooling with 94% 
-                    </p>
+                    <p className="para1">Completed my Schooling with 94%</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <h3 class="resume-title">Professional Experience</h3>
+                  <div class="resume-item">
+                    <h4>Frontend Intern</h4>
+                    <h5>Present</h5>
+                    <p>
+                      <em>GuruConnect</em>
+                    </p>
+                    <p>
+                      <ul>
+                        <li style={{maxWidth: '50vw'}}>
+                          Remotely working as the Frontend web developer at GuruConnect. I am responsible for designing the Frontend of whole website with React JS, Tailwind CSS and MUI. And I also Integrated the APIs for fetching the data based on user logged in states and updation of user data and deletion of account from the database. 
+                        </li>
+                      </ul>
+                    </p>
+                  </div>
                   <div class="resume-item">
                     <h4>Web developer</h4>
                     <h5>Present</h5>
@@ -194,7 +206,10 @@ export default function Resume({ navbar: Navbar }) {
                     </p>
                     <p>
                       <ul>
-                        <li>Currently working as the web developer in the Google Developer Student Clubs.</li>
+                        <li>
+                          Currently working as the web developer in the Google
+                          Developer Student Clubs.
+                        </li>
                       </ul>
                     </p>
                   </div>
@@ -207,9 +222,10 @@ export default function Resume({ navbar: Navbar }) {
                     <p>
                       <ul>
                         <li>
-                          I am actively comntributing to the projects available on Github and participating in events like GSSoC'23 and SSoc'23.
+                          I am actively comntributing to the projects available
+                          on Github and participating in events like GSSoC'23
+                          and SSoc'23.
                         </li>
-                       
                       </ul>
                     </p>
                   </div>

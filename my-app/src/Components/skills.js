@@ -18,7 +18,7 @@ const Skills = () => {
                     <div className="parcial">
                       <div className="info">
                         <div className="name">HTML</div>
-                        <div className="percentage-num">90%</div>
+                        {/* <div className="percentage-num">90%</div> */}
                       </div>
                       <div className="progressbar">
                         <div
@@ -32,12 +32,12 @@ const Skills = () => {
                     <div className="parcial">
                       <div className="info">
                         <div className="name">CSS</div>
-                        <div className="percentage-num">80%</div>
+                        {/* <div className="percentage-num">90%</div> */}
                       </div>
                       <div className="progressbar">
                         <div
                           className="percentagem"
-                          style={{ width: "80%" }}
+                          style={{ width: "90%" }}
                         ></div>
                       </div>
                     </div>
@@ -46,12 +46,26 @@ const Skills = () => {
                     <div className="parcial">
                       <div className="info">
                         <div className="name">Javascript</div>
-                        <div className="percentage-num">80%</div>
+                        {/* <div className="percentage-num">80%</div> */}
                       </div>
                       <div className="progressbar">
                         <div
                           className="percentagem"
-                          style={{ width: "80%" }}
+                          style={{ width: "85%" }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="name">Tailwind CSS</div>
+                        {/* <div className="percentage-num">90%</div> */}
+                      </div>
+                      <div className="progressbar">
+                        <div
+                          className="percentagem"
+                          style={{ width: "90%" }}
                         ></div>
                       </div>
                     </div>
@@ -60,12 +74,12 @@ const Skills = () => {
                     <div className="parcial">
                       <div className="info">
                         <div className="name">React</div>
-                        <div className="percentage-num">70%</div>
+                        {/* <div className="percentage-num">70%</div> */}
                       </div>
                       <div className="progressbar">
                         <div
                           className="percentagem"
-                          style={{ width: "70%" }}
+                          style={{ width: "85%" }}
                         ></div>
                       </div>
                     </div>
@@ -74,7 +88,7 @@ const Skills = () => {
                     <div className="parcial">
                       <div className="info">
                         <div className="name">C++</div>
-                        <div className="percentage-num">85%</div>
+                        {/* <div className="percentage-num">85%</div> */}
                       </div>
                       <div className="progressbar">
                         <div
@@ -88,7 +102,7 @@ const Skills = () => {
                     <div className="parcial">
                       <div className="info">
                         <div className="name">SQL</div>
-                        <div className="percentage-num">80%</div>
+                        {/* <div className="percentage-num">80%</div> */}
                       </div>
                       <div className="progressbar">
                         <div
@@ -109,7 +123,7 @@ const Skills = () => {
               <ul className="mh-professional-progress">
                 <li>
                   <div className="mh-progress mh-progress-circle">
-                    <ChangingProgressProvider values={[0, 80]}>
+                    <ChangingProgressProvider values={[0, 85]}>
                       {(percentage) => (
                         <CircularProgressbar
                           value={percentage}
@@ -133,7 +147,7 @@ const Skills = () => {
                 </li>
                 <li>
                   <div className="mh-progress mh-progress-circle">
-                    <ChangingProgressProvider values={[0, 85]}>
+                    <ChangingProgressProvider values={[0, 90]}>
                       {(percentage) => (
                         <CircularProgressbar
                           value={percentage}
@@ -179,7 +193,7 @@ const Skills = () => {
                 </li>
                 <li>
                   <div className="mh-progress mh-progress-circle">
-                    <ChangingProgressProvider values={[0, 70]}>
+                    <ChangingProgressProvider values={[0, 80]}>
                       {(percentage) => (
                         <CircularProgressbar
                           value={percentage}

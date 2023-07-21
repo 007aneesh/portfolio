@@ -81,7 +81,58 @@ export default function Projects({ navbar: Navbar }) {
             </div>
             <section className="portfolio">
               <div class="cards_container ">
-                <div class="card">
+                <div class="card ch">
+                  <div class="card_header">
+                    <p class="small_text">React JS, Firebase</p>
+                    <h2 class="title_text">Chatify</h2>
+                  </div>
+                  <div class="card_content">
+                    <p class="content_text">
+                      Chatify is a Firebase maintained real time chat
+                      Application that allows users to chat and send images
+                      securely.
+                    </p>
+                    <a href="https://chatify-beta.vercel.app/" class="btn">
+                      View
+                    </a>
+                  </div>
+                </div>
+                <div class="card sb">
+                  <div class="card_header">
+                    <p class="small_text">React JS</p>
+                    <h2 class="title_text">Shop Box</h2>
+                  </div>
+                  <div class="card_content">
+                    <p class="content_text">
+                      A react js shopping website which fetches the product data
+                      from the Fake Store API.
+                    </p>
+                    <a href="https://007aneesh.github.io/shop-box/" class="btn">
+                      View
+                    </a>
+                  </div>
+                </div>
+                <div class="card yc">
+                  <div class="card_header">
+                    <p class="small_text">React JS</p>
+                    <h2 class="title_text">YouTube Clone</h2>
+                  </div>
+                  <div class="card_content">
+                    <p class="content_text">
+                      A react Js and MUI based YouTube Clone which fetched
+                      videos or other data from YouTube API.
+                    </p>
+                    <a
+                      href="https://github.com/007aneesh/youtube-clone"
+                      class="btn"
+                    >
+                      View
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="cards_container ">
+                <div class="card news">
                   <div class="card_header">
                     <p class="small_text">React JS</p>
                     <h2 class="title_text">News Website</h2>
@@ -96,7 +147,7 @@ export default function Projects({ navbar: Navbar }) {
                     </a>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card wa">
                   <div class="card_header">
                     <p class="small_text">Javascript</p>
                     <h2 class="title_text">Weather App</h2>
@@ -115,7 +166,7 @@ export default function Projects({ navbar: Navbar }) {
                     </a>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card dk">
                   <div class="card_header">
                     <p class="small_text">Javascript</p>
                     <h2 class="title_text">Drum Kit</h2>
@@ -165,6 +216,7 @@ export default function Projects({ navbar: Navbar }) {
                     </a>
                   </div>
                 </div>
+                
               </div>
             </section>
           </div>
